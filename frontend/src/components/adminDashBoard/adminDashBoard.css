@@ -1,0 +1,39 @@
+.item-tableH{
+    background-color: lightblue;
+    color: white;
+}
+
+.css-xn6ruc {
+    margin-top: 36px;
+}
+
+.css-1h12o0g-MuiStack-root {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-bottom: -53px;
+    margin-top: 40px;
+    top: 20px;
+}
+
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.87);
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 74px;
+}
+
+/* .item-table {
+    max-height: 400px; 
+    overflow-y: auto;
+  } */
