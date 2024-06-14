@@ -38,7 +38,7 @@ function Nav() {
   };
 
   return (
-    <AppBar position="static" sx={{bgcolor:'green'}}>
+    <AppBar position="static" sx={{bgcolor:'#f1d906'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <LocalGroceryStoreSharpIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
@@ -51,13 +51,13 @@ function Nav() {
               mr: 2,
               display: { xs: 'none', md: 'flex' },
               fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
+              fontWeight: 900,
+              letterSpacing: '.4rem',
+              color: 'black',
               textDecoration: 'none',
             }}
           >
-            GROCCERY MART
+            COFFEE RANGE
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -93,7 +93,7 @@ function Nav() {
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">
 
-                  <Link style={{textDecoration: "none", color:"white"}} to = {`/${page}`}>
+                  <Link style={{textDecoration: "none", color:"black"}} to = {`/${page}`}>
                     {page}
                     </Link>
 
@@ -128,7 +128,7 @@ function Nav() {
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                    <Link style={{textDecoration: "none", color:"white"}} to = {`/${page}`}>
+                    <Link style={{textDecoration: "none", color:"black"}} to = {`/${page}`}>
                     {page}
                     </Link>
 
@@ -139,7 +139,7 @@ function Nav() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="" src="/static/images/avatar/2.jpg" />
+                <Avatar alt="icon" src="" >R</Avatar>
               </IconButton>
             </Tooltip>
             <Menu
