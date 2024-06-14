@@ -72,7 +72,7 @@ export default function AdminDashBoard() {
     <>
 
       <Typography variant="h4" gutterBottom sx={{marginTop:5}}>
-        Item Panel
+        ADMIN PANEL
       </Typography>
 
       <Box
@@ -96,8 +96,8 @@ export default function AdminDashBoard() {
           name="qtyOnHand" label="QTYOnHand" variant="outlined" onChange={(e) => setQtyOnHand(e.target.value)}
         />
         
-          <Button type="submit" variant="contained" color="primary">
-            Save
+          <Button type="submit" variant="contained" color="success">
+            SAVE ITEM
           </Button>
           
 
@@ -129,8 +129,8 @@ export default function AdminDashBoard() {
                 <TableCell align="right">{item.itemPrice}</TableCell>
                 <TableCell align="right">{item.qtyOnHand}</TableCell>
                 <TableCell align="right">
-                  <Link to={`/itemUpdate/${item._id}`}><Button variant="outlined" color="secondary">Update</Button></Link>
-                  <Button variant="outlined" color="error" 
+                  <Link to={`/itemUpdate/${item._id}`}><Button variant="contained" color="success">Update</Button></Link>
+                  <Button variant="contained" color="error"
                   onClick={(e) => handleDeleteItem(item._id)}>
                     Delete
                   </Button>
