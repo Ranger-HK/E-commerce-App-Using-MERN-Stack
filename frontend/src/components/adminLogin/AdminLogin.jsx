@@ -72,7 +72,7 @@ export default function AdminLogIn() {
         <CssBaseline />
         <Box
           sx={{
-            marginTop: 8,
+            marginTop: 15,
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
@@ -81,8 +81,8 @@ export default function AdminLogIn() {
           <Avatar sx={{ m: 1, bgcolor: 'secondary' }}>
             <LockOutlinedIcon />
           </Avatar>
-          <Typography component="h1" variant="h5">
-            Admin Sign in
+          <Typography component="h1" variant="h4">
+            ADMIN SIGN IN FORM
           </Typography>
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
             <TextField
@@ -90,7 +90,7 @@ export default function AdminLogIn() {
               required
               fullWidth
               id="email"
-              label="Email Address"
+              label="Email"
               name="email"
               autoComplete="email"
               autoFocus
@@ -111,7 +111,7 @@ export default function AdminLogIn() {
             />
             <FormControlLabel
               control={<Checkbox value="remember" color="primary" />}
-              label="Remember me"
+              label="Remember Me"
             />
             <Button
               type="submit"
@@ -135,7 +135,7 @@ export default function AdminLogIn() {
             </Grid>
           </Box>
         </Box>
-        <Copyright sx={{ mt: 8, mb: 4 }} />
+        <Copyright sx={{ mt: 5, mb: 4 }} />
       </Container>
     </ThemeProvider>
   );
