@@ -1,6 +1,6 @@
 .footer-outer{
     width: 100vw;
-    height: 80px;
+    height: 50px;
     background-color: rgba(0, 0, 0, 0.93);
     position: fixed;
     bottom: 0px;
@@ -10,4 +10,5 @@
 }
 .cr-stm{
     color: white;
+    font-size: x-small;
 }

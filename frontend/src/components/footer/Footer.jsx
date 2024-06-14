@@ -4,8 +4,8 @@ import './Footer.css';
 export const Footer  = () =>{
     return(
         <div className="footer-outer">
-        <p className='cr-stm'>RavinduPrathibha - 2024 </p>
-        <p className='cr-stm'>@All Rights Reserved</p>
+        <p className='cr-stm'>Ravindu Prathibha - 2024 </p>
+        <p className='cr-stm'>@ All Rights Reserved</p>
         </div>
     );
 }
