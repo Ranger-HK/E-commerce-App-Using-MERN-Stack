@@ -9,7 +9,7 @@ function Home() {
 
         <div>
         
-          <h1 style={{color:"black"}}>COFFEE_RANGE</h1>
+          <h1 style={{color:"black"}}>_COFFEE_RANGE_</h1>
           <h2 style={{color:"black"}}>
               “Coffee That Speaks to You”  </h2>
         </div>
