@@ -15,6 +15,7 @@ import './adminDashBoard.css'
 import { useState } from 'react';
 import { Link} from 'react-router-dom';
 import { useEffect } from 'react';
+import {blueGrey} from "@mui/material/colors";
 
 
 export default function AdminDashBoard() {
@@ -70,6 +71,11 @@ export default function AdminDashBoard() {
 
   return (
     <>
+      <Link to={'/payments'}>
+        <Button variant="outlined" href="#outlined-buttons" style={{backgroundColor:blueGrey}}>
+          All Customers Payments
+        </Button>
+      </Link>
 
       <Typography variant="h4" gutterBottom sx={{marginTop:5}}>
         ADMIN PANEL
