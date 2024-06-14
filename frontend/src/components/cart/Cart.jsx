@@ -57,17 +57,17 @@ export default function Cart() {
   return (
     <>
     <Link to={"/order"}>
-     <Button  variant="outlined" color="secondary" style={{marginTop:10}}>My-Orders</Button>
+     <Button  variant="contained" color="info" style={{marginTop:20}}>ALL ORDERS</Button>
      </Link>
 
     <Card sx={{display:'flex', flexDirection:'row', gap:5, padding:8}}>
         {items.map(item => (
       <CardActionArea key={item._id}>
         <CardMedia
-          component="img"
-          height="140"
-          image="https://cdn.xxl.thumbs.canstockphoto.com/composition-with-grocery-products-in-shopping-basket-stock-photo_csp11922927.jpg"
-          alt="products"
+            component="img"
+            height="140"
+            image="https://i.postimg.cc/xCnt15Wr/nathan-dumlao-6-Vh-PY27jdps-unsplash.jpg"
+            alt="green iguana"
         />
         <CardContent style={{ border:1}}>
           <Typography gutterBottom variant="h5" component="div" value={itemCode}
@@ -96,7 +96,7 @@ export default function Cart() {
           </Typography>
           <hr></hr>
           
-          <Button type="submit" variant="contained" onClick={()=>{
+          <Button type="submit" variant="contained" color="success" onClick={()=>{
             let itemCode=item.itemCode;
             let itemName=item.itemName;
             let itemPrice=item.itemPrice;
