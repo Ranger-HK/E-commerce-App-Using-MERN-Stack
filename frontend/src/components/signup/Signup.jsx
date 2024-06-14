@@ -119,7 +119,7 @@ export default function SignUp() {
                   required
                   fullWidth
                   id="email"
-                  label="Email Address"
+                  label="Email"
                   name="email"
                   autoComplete="email"
                 />
@@ -146,7 +146,7 @@ export default function SignUp() {
             </Button>
             <Grid container justifyContent="flex-start">
               <Grid item>
-                <Link  href='#' variant="body2" onClick={handleLinkClick}>
+                <Link  href='#' variant="body2"  onClick={handleLinkClick}>
                   Already have an account? Sign in
                 </Link>
               </Grid>
