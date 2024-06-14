@@ -1,9 +1,9 @@
 .footer-outer{
     width: 100vw;
     height: 80px;
-    background-color:#1976d2;
+    background-color: rgba(0, 0, 0, 0.93);
     position: fixed;
-    bottom: 0;
+    bottom: 0px;
 
     
 
