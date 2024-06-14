@@ -33,8 +33,8 @@ const defaultTheme = createTheme();
 
 export default function AdminLogIn() {
 
-  const [signinEmail, setEmail] = useState("");
-  const [signinPassword, setPassword] = useState("");
+  const [signinEmail, setEmail] = useState("ravindu@gmail.com");
+  const [signinPassword, setPassword] = useState("1999");
 
   const navigate = useNavigate();
 
@@ -51,7 +51,7 @@ export default function AdminLogIn() {
           
             const admin = res.data.data;
 
-            if(admin.adminEmail==="hlakshan614@gmail.com"){
+            if(admin.adminEmail==="ravindu@gmail.com"){
               console.log("admin")
                 navigate('/admindash')
             }else{

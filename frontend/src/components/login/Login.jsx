@@ -33,8 +33,8 @@ const defaultTheme = createTheme();
 
 export default function LogIn() {
 
-  const [signinEmail, setEmail] = useState("");
-  const [signinPassword, setPassword] = useState("");
+  const [signinEmail, setEmail] = useState("prathibha@gmail.com");
+  const [signinPassword, setPassword] = useState("1999");
 
   const navigate = useNavigate();
 
