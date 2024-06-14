@@ -98,7 +98,7 @@ export default function Checkout() {
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
-              margingTop:20,
+              marginTop:3,
               fontSize:50
             }}
           >
@@ -125,7 +125,7 @@ export default function Checkout() {
               <StyledTableCell align="right">{order.qty}</StyledTableCell>
               <StyledTableCell align="right">{order.amount}</StyledTableCell>
               <StyledTableCell align="right">        
-                  <Button variant="outlined" color="error" 
+                  <Button variant="contained" color="error"
                   onClick={(e) => handleDeleteOrder(order._id)}>
                     Delete
                   </Button>
@@ -137,11 +137,11 @@ export default function Checkout() {
     </TableContainer>
     {orders.length > 0 && (
         <div>
-          <h2 className='fs-2'>Total Price: {getTotalPrice()}</h2>
+          <h2 className='fs-2'>Total Price : {getTotalPrice()} /=</h2>
         </div>
     )}
     <Link to={"/payments"}>
-     <Button  variant="outlined" style={{marginTop:10}}>Payments</Button>
+     <Button  variant="contained" style={{marginTop:0,left:3}}>Payments</Button>
      </Link>
     </>
   );
