@@ -9,14 +9,13 @@ function Home() {
 
         <div>
         
-          <h1 style={{color:"black"}}>Super Groccery Mart</h1>
-          <h3 style={{color:"black"}}>
-            Your one-stop-shop for quality products and unbeatable prices.
-          </h3>
+          <h1 style={{color:"black"}}>COFFEE_RANGE</h1>
+          <h2 style={{color:"black"}}>
+              “Coffee That Speaks to You”  </h2>
         </div>
    
         <div class="carousel-item active">
-          <img src="https://img.freepik.com/free-vector/interior-supermarket-store-with-people-character-cashier-buyer_80328-122.jpg?w=826&t=st=1690458747~exp=1690459347~hmac=247e7de67ab306c5300243a90bbed658ccbac1e55c70ffaec974417a3eb01d94" style={{width:'1000px',height:'65vh'}}  class="d-block w-100" />
+          <img src="https://i.postimg.cc/3xC1zBM6/2208-i203-051-S-m004-c13-restaurant-bar-cafe-furniture-interior-cartoon.jpg" style={{width:'1000px',height:'65vh'}}  class="d-block w-100" />
         </div>
 
     </div>
